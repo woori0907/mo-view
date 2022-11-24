@@ -1,0 +1,38 @@
+.item_box {
+  box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+  border-radius: var(--size-border-radius);
+  width: 360px;
+  height: 509px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item_title_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.item_title_box a {
+  color: white;
+  text-align: center;
+}
+
+.item_box:hover .item_title_box {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item_poster_container img {
+  width: 100%;
+}
