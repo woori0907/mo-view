@@ -22,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/movie/:id", element: <Detail /> },
       { path: "/search/:query", element: <Search /> },
     ],
+    errorElement: <App />,
   },
   {
     basename: process.env.PUBLIC_URL,
