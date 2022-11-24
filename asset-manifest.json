@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mo-view/static/css/main.4fa8985d.css",
+    "main.js": "/mo-view/static/js/main.59d8116c.js",
+    "index.html": "/mo-view/index.html",
+    "main.4fa8985d.css.map": "/mo-view/static/css/main.4fa8985d.css.map",
+    "main.59d8116c.js.map": "/mo-view/static/js/main.59d8116c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa8985d.css",
+    "static/js/main.59d8116c.js"
+  ]
+}
