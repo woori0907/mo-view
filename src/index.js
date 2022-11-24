@@ -23,6 +23,9 @@ const router = createBrowserRouter([
       { path: "/search/:query", element: <Search /> },
     ],
   },
+  {
+    basename: process.env.PUBLIC_URL,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
